@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Almendra;
+    src: url(fonts/Almendra-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Marcellus;
+    src: url(fonts/Marcellus-Regular.ttf);
+    font-weight: normal;
+}
+
+body {
+    font-family: Almendra;
+    color: #654646;
+}
+
+.menu {
+    height: 100px;
+    width: 100%;
+    background: #6d5656;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: Almendra;
+}
+
