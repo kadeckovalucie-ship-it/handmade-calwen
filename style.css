@@ -19,6 +19,8 @@ body {
 header {
     background-color: #896b6b;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -41,10 +43,9 @@ header {
 
 .menu {
     list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
     gap: 1rem;
     margin: 10px;
+    display: flex;
 }
 
 nav ul a {
@@ -52,5 +53,4 @@ nav ul a {
     color: #fff;
     font-family: Marcellus, serif;
     font-size: 0.7rem;
-    
 }
