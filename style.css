@@ -12,36 +12,45 @@
 
 body {
     color: #584141;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 header {
     background-color: #896b6b;
-    justify-content: space-between;
     display: flex;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 16px;
-    padding: 10px;
     color: #fff;
     font-family: Almendra, serif;
+    margin: 10px;
 }
 
 .logo img {
-    width: 60px;
-    height: auto
+    width: 30px;
+    height: auto;
 }
 
 .logo h1 {
-    font-size: 2.5rem;
+    font-size: 1rem;
     margin: 0;
 }
 
 .menu {
     list-style-type: none;
     display: flex;
-    
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin: 10px;
 }
 
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Marcellus, serif;
+    font-size: 0.7rem;
+    
+}
