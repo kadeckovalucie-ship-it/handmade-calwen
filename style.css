@@ -11,25 +11,26 @@
 }
 
 body {
-    font-family: Almendra;
-    color: #654646;
+    color: #584141;
+}
+
+header {
+    background-color: #896b6b;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    font-family: Almendra, serif;
 }
 
 .menu {
-    height: 100px;
-    width: 100%;
-    background: #6d5656;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-nav ul {
-    margin: 0;
     list-style-type: none;
     display: flex;
-    align-items: center;
-    height: 100%;
-    font-family: Almendra;
+    
 }
 
