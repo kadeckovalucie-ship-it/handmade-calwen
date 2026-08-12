@@ -11,13 +11,13 @@
 }
 
 body {
-    color: #584141;
+    color: #905e3e;
     box-sizing: border-box;
     margin: 0;
 }
 
 header {
-    background-color: #896b6b;
+    background-color: #905e3e;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +56,7 @@ nav a {
 }
 
 footer {
-    background-color: #896b6b;
+    background-color: #905e3e;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -64,10 +64,17 @@ footer {
     font-size: 0.7rem;
 }
 
-.main-picture img {
+article {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+}
+.main-picture {
     display: flex;
     flex-grow: 1;
-    justify-content: center;
+}
+
+.main-picture img {
     width: 100%;
     height: 100%;
     object-fit: cover;
