@@ -14,7 +14,7 @@ body {
     color: #905e3e;
     box-sizing: border-box;
     margin: 0;
-    padding-top: 50px;
+    padding-top: clamp(50px, 6vw, 100px);
     display: flex;
     flex-direction: column;
     height: 100dvh;
