@@ -29,7 +29,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: clamp(8px, 1vw, 20px) clamp(10px, 2vw, 30px);
+    height: clamp(50px, 6vw, 100px);
 }
 
 .logo {
