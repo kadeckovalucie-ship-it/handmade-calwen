@@ -89,8 +89,6 @@ article {
     flex-direction: column;
     flex-grow: 1;
     text-align: match-parent;
-    color: #3B302A;
-    background-image: url('pictures/background.png');
 
 }
 
@@ -104,7 +102,10 @@ h1 {
 .main-content {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     padding: 20px 40px 40px;
+    color: #3B302A;
+    background-image: url('pictures/background.png');
 }
 
 .main-content p {
