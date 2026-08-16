@@ -224,3 +224,8 @@ form {
     max-width: 100%;
     box-sizing: border-box;
 }
+
+.main-content select {
+    max-width: 100%;
+    box-sizing: border-box;
+}
