@@ -226,6 +226,13 @@ form {
 }
 
 .main-content select {
-    max-width: 100%;
-    box-sizing: border-box;
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 147px;
+}
+
+.main-content textarea {
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 147px;
 }
