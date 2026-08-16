@@ -64,6 +64,38 @@ nav a {
     color: #fff;
 }
 
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 700px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #905e3e;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0;
+        padding: 15px;
+        width: max-content;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}
+
 footer {
     background-color: #905e3e;
     color: #fff;
