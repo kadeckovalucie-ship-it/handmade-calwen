@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handmade Calwen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pictures/handmade_calwen.ico" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="pictures/logo.png" alt="Handmade Calwen">
+            <h1>Handmade&nbsp;Calwen</h1>
+        </div>
+    <nav>
+        <ul class="menu">
+            <li><a href="about.html">Vítej</a></li>
+            <li><a href="history.html">Jak to začalo</a></li>                <li><a href="future.html">Kam dál</a></li>
+            <li><a href="galery.html">Galerie</a></li>
+            <li><a href="contact.html">Máš nápad?</a></li>
+        </ul>
+    </nav>
+    </header>
+        <article class="main-content">
+            <h1>Kontakt</h1>
+            <p>Pokud máš nápad, který bys chtěl sdílet, nebo se chceš jen zeptat na něco ohledně Handmade Calwen, neváhej mě kontaktovat.</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Jméno:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefon:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Předmět dotazu:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="inquiry">Poptávka</option>
+                        <option value="idea">Nápad</option>
+                        <option value="question">Dotaz</option>
+                        <option value="other">Jiné</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Zpráva:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Odeslat</button>
+            </form>
+        </article>
+    <footer>
+        <p>© 2026 Handmade Calwen</p>
+    </footer>
+
+    
+</body>
+</html>

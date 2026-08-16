@@ -123,7 +123,7 @@ h1 {
 
 .main-content div {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -143,4 +143,35 @@ h2 {
 .images img {
     width: auto;
     height: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.main-content .form-group {
+    font-family: Marcellus, serif;
+    font-size: clamp(1rem, 1.2vw, 1.4rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.main-content label {
+    width: 200px;
+}
+
+.main-content button {
+    font-family: Marcellus, serif;
+    font-size: clamp(1rem, 1.2vw, 1.4rem);
+    background-color: #905e3e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin: 0 auto;
 }
