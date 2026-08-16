@@ -217,3 +217,10 @@ form {
     margin-top: 10px;
     margin: 0 auto;
 }
+
+.main-content input,
+.main-content select,
+.main-content textarea {
+    max-width: 100%;
+    box-sizing: border-box;
+}
